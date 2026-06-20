@@ -1,0 +1,37 @@
+project.doc
+project1.doc--->
+project2.doc--->3rd
+
+which file is newest.
+who changed what?
+delete -- we can recover the code
+multiple people can work together
+
+discovered by "Linus Torvalds" -->2005
+
+git architecture
+             working directory
+             :hello.py ver1,ver2
+                |
+             staging area:
+             temporary are before commit
+                |
+             local repository:
+             area after commit(within system)
+                |
+             remote repository (github,gitlab,)        
+
+
+             create a file
+             |
+             git add
+             |
+             staging area
+             |
+             git commit
+             |
+             local repository
+             |
+             git push
+             |
+             cloud(remort repository)

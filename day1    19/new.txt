@@ -1,0 +1,101 @@
+what is programming?
+the set of instructions passed to  computer to do some task
+
+programming is a mode of language(communication)
+
+what is python?
+python is a high level dynamic programming language
+
+introduced by?
+
+
+features?
+1.easy to understand: human readeable
+2.interpreted: line by line execution
+3.both complied and interpreted.
+
+example:C.programming
+                      program
+                         |
+                      complier
+                         |
+                      machine language      
+
+complier---> generate the bytecode
+execution flow of python.
+
+                python programming
+                         |
+                    interpreter
+                         |
+                    bytecode (intermediate)  portability becomes easyer
+                         |
+                (PVM)python virtual machine 
+                         |
+                machine language (Binary language)         
+
+4.Dynamically typed:
+
+int a = 10;    C --- 4 bytes
+Dynamic memory allocation:
+1.freed
+2.malloc
+3.calloc
+4.realloc
+python:
+    a = 20     python --- int (28bytes)
+
+    GC --> garbage Collecter
+    reference count ---->0  (Automatically freed)
+
+5.OOPS:To achieve the moduler programming
+
+main data types:
+
+data type:
+1.Numeric:int,float,comlex
+2.Sequence:list,tuple,range,strings
+3.boolean: bool
+4.sets:set,frozenset
+5.mapping: dict
+
+main primitive data types
+1.int: the whole numbers either -ve or +ve
+3.float: decimal point numbers
+4.bool: true/false
+5.string: ' '," ",""""",''''''
+6.none :
+
+
+
+
+we need to find the first non repeating character?
+in given string
+
+string == sequence of characters
+string -->Slicing
+
+str = "a a b b c c h c c"
+       0 1 2 3 4 5 6 7 8 
+    str[0] == a
+    str[1] == str[0]
+.........{h}     
+
+
+#strings : " sequence of number"
+name = "Masnih"
+
+name[0:3]
+
+#sclicing : str[start:end:step]
+#built in methods:
+
+name.upper()
+
+R -->read  10+10
+E -->evaluate  sum
+P -->print                  
+L -->loop
+
+
+

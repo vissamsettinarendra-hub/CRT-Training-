@@ -1,0 +1,5 @@
+ERROR database failed
+WARNING low memory
+INFO server started
+
+

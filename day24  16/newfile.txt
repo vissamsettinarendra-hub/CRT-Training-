@@ -1,0 +1,3 @@
+narendra 100000
+bala 120000
+moin 1000000

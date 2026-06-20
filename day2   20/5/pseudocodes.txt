@@ -1,0 +1,32 @@
+pseudo:simple english steps representing the program logic
+
+
+importance : to think logically
+1.planning
+2.logic building
+3.understanding the algorithm
+
+#structure of the pseudocode
+
+START 
+step-1
+step-1
+step-1
+step-1
+end
+
+START
+input the first number
+input the second number
+display the results
+end
+
+#write a pseudocode for avg of numbers
+enter the value of x
+enter the value of y
+enter the value of z
+
+#square of a number
+
+
+#area of rectangle

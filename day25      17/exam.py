@@ -8,18 +8,18 @@ example:
 input: arr = {7,4,8,2,9}
 output:3'''
 
-# n = int(input())
-# arr = list(map(int, input().split()))
+n = int(input())
+arr = list(map(int, input().split()))
 
-# count = 1          
-# max_element = arr[0]
+count = 1          
+max_element = arr[0]
 
-# for i in range(1,n):
-#     if arr[i] > max_element:
-#         count += 1
-#         max_element = arr[i]
+for i in range(1,n):
+    if arr[i] > max_element:
+        count += 1
+        max_element = arr[i]
 
-# print(count)
+print(count)
 
 n =  int(input())
 a = list(map(int, input().split()))

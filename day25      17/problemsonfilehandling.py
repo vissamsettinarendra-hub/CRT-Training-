@@ -16,30 +16,30 @@ Employee Report
 meghana 50000
 Total expenditure:50000
 '''
-# class Employeereport:
-#     def add_employee(self):
-#         try:
-#             name = input("enter the name:")
-#             salary = float(input("enterr the salarly:"))
-#             with open("employee.txt","a") as file:
-#                 file.write(name + " " + str(salary)+"\n")
-#             print("employee added") 
-#         except ValueError as e:
-#             print("invalid input",e)
-#     def genertate_report(self):
-#         total = 0
-#         try:
-#             with open("employee.txt","r") as file:
-#                 for line in file:
-#                     name,salary = line.split()
-#                     print(name,salary)
-#                     total += float(salary)   
-#             print("total expenditure:",total)
-#         except FileNotFoundError:
-#             print("employee file missing")       
-# o =Employeereport()
-# o.add_employee()
-# o.genertate_report()                
+class Employeereport:
+    def add_employee(self):
+        try:
+            name = input("enter the name:")
+            salary = float(input("enterr the salarly:"))
+            with open("employee.txt","a") as file:
+                file.write(name + " " + str(salary)+"\n")
+            print("employee added") 
+        except ValueError as e:
+            print("invalid input",e)
+    def genertate_report(self):
+        total = 0
+        try:
+            with open("employee.txt","r") as file:
+                for line in file:
+                    name,salary = line.split()
+                    print(name,salary)
+                    total += float(salary)   
+            print("total expenditure:",total)
+        except FileNotFoundError:
+            print("employee file missing")       
+o =Employeereport()
+o.add_employee()
+o.genertate_report()                
 
 
 '''

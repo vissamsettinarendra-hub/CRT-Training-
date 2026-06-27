@@ -139,31 +139,31 @@ find the samllest even number in a list
 '''
 find the number of elements greater than avg
 '''
-# n = [1,2,3,4,5,6]
-# total = 0
-# for i in n:
-#     total +=i
-# average = total/6 
-# while True:
-#     if average < i:
-#         print(average)
-#         break
+n = [1,2,3,4,5,6]
+total = 0
+for i in n:
+    total +=i
+average = total/6 
+while True:
+    if average < i:
+        print(average)
+        break
 
 
-# n = [1, 2, 3, 4, 5, 6]
+n = [1, 2, 3, 4, 5, 6]
 
-# total = 0
-# for i in n:
-#     total += i
+total = 0
+for i in n:
+    total += i
 
-# average = total / len(n)
+average = total / len(n)
 
-# count = 0
-# for i in n:
-#     if i > average:
-#         count += 1
+count = 0
+for i in n:
+    if i > average:
+        count += 1
 
-# print(count)    
+print(count)    
 
 '''
 find the differnce between largest and smallest number in a list

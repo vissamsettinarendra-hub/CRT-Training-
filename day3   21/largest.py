@@ -16,7 +16,7 @@ else:
     '''
 
   
-#    PSEUDOCODES
+#PSEUDOCODES:
 '''
 START
     input a,b,c,d

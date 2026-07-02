@@ -57,7 +57,7 @@ computer understands 0's and 1's
 performs operations bits by bit:
 it compares each and every bit
 
-operator  |  name 
+operator  |  name :
 &           bitwise  AND
 |           bitwise or
 ^           bitwise XOR

@@ -3,8 +3,8 @@ if username == "admin":
     password = input("enter the password:")
 
     if password == "1234":
-        print("login is successful")
+        print("Login is successful")
     else:
-        print("wrong password")
+        print("Wrong password")
 else:
     print("Invalid username")

@@ -20,18 +20,18 @@ print(y)
      #print(s>20)
 
 
-#logical operators
+#logical operators:
 
         #age =20
         #has_id = True
         #print(age>=20 and has_id)
 
 
-#logical or 
+#logical or :
 
       #print(True or False)
 
-#not operator
+#not operator:
 
       #print(not True)
 

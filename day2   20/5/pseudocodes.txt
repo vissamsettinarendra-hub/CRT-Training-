@@ -6,7 +6,7 @@ importance : to think logically
 2.logic building
 3.understanding the algorithm
 
-#structure of the pseudocode
+#structure of the pseudocode:
 
 START 
 step-1
@@ -29,4 +29,5 @@ enter the value of z
 #square of a number
 
 
-#area of rectangle
+#area of rectangle:
+

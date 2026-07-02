@@ -41,7 +41,8 @@ print(type(price))
 
 x = str(100)
 
-#write a program to perform avg of a number
+#write a program to perform avg of a number:
+
 x = int(input("enter the value of x:"))
 y = int(input("enter the value of y:"))
 z = int(input("enter the value of z:"))

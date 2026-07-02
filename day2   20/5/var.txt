@@ -1,5 +1,4 @@
 variable?
-
 it is a type of container where
 the data is being stored
 
